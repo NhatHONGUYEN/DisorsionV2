@@ -5,16 +5,34 @@ export default function MultiColorPart() {
         <div className="flex justify-center ">
           <video
             className="  "
-            src="/finalpink.mp4"
+            src="/finalpinksmoke.mp4"
             autoPlay
             loop
             muted
           ></video>
         </div>
         <div className="flex">
-          <video className="w-1/3  " autoPlay loop muted></video>
-          <video className="w-1/3  " autoPlay loop muted></video>
-          <video className="w-1/3  " autoPlay loop muted></video>
+          <video
+            className="w-1/3"
+            src="/finalbluesmoke.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          <video
+            className="w-1/3"
+            src="/finalbluesmoke.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          <video
+            className="w-1/3"
+            src="/finalbluesmoke.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ export default function Bluepart() {
       <div className="relative w-full h-screen">
         <video
           className="absolute w-screen h-screen z-10  object-cover"
-          src="/bluesmoke.mp4"
+          src="/bluesmoke .mp4"
           autoPlay
           loop
           muted
